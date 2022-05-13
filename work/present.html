@@ -1,0 +1,18 @@
+<html>
+ <head><title>Present Day, Present Time</title>
+ <style>
+ .page {
+	font-family: "Lucida Console";
+       }
+ </style>
+ </head>
+ <body class="page">
+ <script>
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  document.writeln("<p>Present Day:" + date + "<br/>");
+  document.writeln("<p>Present Time:" + time);
+ </script>
+ </body>
+ </html>
